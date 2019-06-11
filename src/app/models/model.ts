@@ -3,10 +3,12 @@ export class Model {
     items;
     constructor() {
         this.user = "Pavel";
-        this.items = [new TodoItem("Buy Flowers", false),
-        new TodoItem("Get Shoes", false),
-        new TodoItem("Collect Tickets", false),
-        new TodoItem("Call Joe", false)]
+        this.items = [
+            new TodoItem("Buy Flowers", false),
+            new TodoItem("Get Shoes", true),
+            new TodoItem("Collect Tickets", false),
+            new TodoItem("Call Joe", false)
+        ]
     }
 }
 export class TodoItem {
